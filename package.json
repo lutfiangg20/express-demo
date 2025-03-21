@@ -1,0 +1,31 @@
+{
+	"name": "express-demo",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon --exec ts-node src/index.ts",
+		"build": "tsc",
+		"start": "node dist/index.js",
+		"generate": "drizzle-kit generate",
+		"push": "drizzle-kit push"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"better-sqlite3": "^11.9.1",
+		"dotenv": "^16.4.7",
+		"drizzle-orm": "^0.40.1",
+		"express": "^4.21.2"
+	},
+	"devDependencies": {
+		"@types/better-sqlite3": "^7.6.12",
+		"@types/express": "^5.0.1",
+		"@types/node": "^22.13.10",
+		"drizzle-kit": "^0.30.5",
+		"nodemon": "^3.1.9",
+		"ts-node": "^10.9.2",
+		"tsx": "^4.19.3",
+		"typescript": "^5.8.2"
+	}
+}
